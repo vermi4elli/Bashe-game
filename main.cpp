@@ -129,7 +129,7 @@ inline void bashe::PlayGame(info& Game, int level) {
 		int taken = 0;
 		cin >> taken;
 		cout << endl;
-		while (taken > M && amount-taken < 0) {
+		while (taken > M || amount-taken < 0) {
 			if (amount - taken >= 0) {
 				cout << "The entered value is bigger than " << M << "!\nReenter the value: ";
 				cin >> taken;
