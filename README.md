@@ -1,2 +1,2 @@
-# Bashe_game
-Игра Баше. 3 уровня сложности, последний на алгоритме минимакс
+# Bashe game
+Bashe game, 3 complexity levels, last is made with the minimax algorithm
